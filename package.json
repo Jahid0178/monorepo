@@ -7,6 +7,6 @@
   "scripts": {
     "start": "pnpm build && pnpm --parallel --filter \"./packages/*\" start",
     "dev": "pnpm --parallel --filter \"./packages/*\" dev",
-    "build": "pnpm --filter \"/packages/*\" build"
+    "build": "pnpm --filter \"./packages/*\" build"
   }
 }
